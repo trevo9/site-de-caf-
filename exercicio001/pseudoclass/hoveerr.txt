@@ -1,0 +1,8 @@
+html e css 
+
+altura: height 
+largura: width
+
+pseudo classes: 
+:hover
+

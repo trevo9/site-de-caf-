@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudos-id</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            /*tirar os sublinhados das linhas*/
+            text-decoration: none;
+            /*deixar negrito*/
+            font-weight: bold;
+
+        }
+
+        /*indica quando alguem ja visitou o site*/
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color:black;
+        }
+
+        a:active{
+            /*quando ele é clicado*/
+            color: yellow;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+
+    <ul>
+        <li><a href="#" target="_blank">link do ghit </a></li>
+        <li><a href="#">link do ghit </a></li>
+        <li><a href="#">link do ghit </a></li>
+    </ul>
+</body>
+</html>
